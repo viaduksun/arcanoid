@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    min-width: 98vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    max-width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.logo {
+    width: 400px;
+}
+.logo img {
+    width: 100%;
+}
+canvas {  
+    background: #eee;
+    width: 600px; 
+}
